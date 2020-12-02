@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../Imagenes/Shen.jpg");
+    background-repeat: repeat;
+    backdrop-filter: blur(10px);
+    margin-left: 20em;
+    margin-right: 20em;
+    background-size: cover;
+}
+
+.info {
+    margin-top: 0;
+}
+
+.parrafo img {
+    float: left;
+    margin-top: -23px;
+    margin-left: 60px;
+}
+
+.parrafo2 img {
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 5em;
+    margin-left: 5em;
+    color: white;
+}
+
+h1 {
+    line-height: 1.5em;
+    letter-spacing: 20px;
+    background-color: salmon;
+    margin-left: 2.4em;
+    margin-right: 2.4em;
+}
+
+h2 {
+    line-height: 1.5em;
+    color: white;
+}
+
+.navegacion {
+    margin: 30px auto;
+    background: white;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: rosybrown;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #CE7D35;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background: gray;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.background {
+    position: center;
+}
+
+.filter {
+    backdrop-filter: blur(10px);
+}
+
+.footer {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    background: coral;
+}
